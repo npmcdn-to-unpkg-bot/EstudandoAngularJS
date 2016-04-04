@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="helloWorld">
+<head>
+    <title>Hello World!</title>
+    <script src="util/angular-1.5.3/angular.min.js"></script>
+    <script>
+        var app = angular.module("helloWorld", []);
+        app.controller("helloWorldCtrl", function ($scope) {
+            $scope.appendText = "Hello World!";
+        });
+    </script>
+</head>
+<body ng-controller="helloWorldCtrl">
+    <h1>{{ appendText }}</h1>
+</body>
+</html>
