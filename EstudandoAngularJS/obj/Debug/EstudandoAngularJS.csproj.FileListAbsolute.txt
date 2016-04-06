@@ -4,3 +4,9 @@ c:\users\treebu\documents\visual studio 2013\Projects\EstudandoAngularJS\Estudan
 c:\users\treebu\documents\visual studio 2013\Projects\EstudandoAngularJS\EstudandoAngularJS\obj\Debug\EstudandoAngularJS.csprojResolveAssemblyReference.cache
 c:\users\treebu\documents\visual studio 2013\Projects\EstudandoAngularJS\EstudandoAngularJS\obj\Debug\EstudandoAngularJS.dll
 c:\users\treebu\documents\visual studio 2013\Projects\EstudandoAngularJS\EstudandoAngularJS\obj\Debug\EstudandoAngularJS.pdb
+C:\Users\Treebu\Documents\GitHub\EstudandoAngularJS\EstudandoAngularJS\bin\EstudandoAngularJS.dll.config
+C:\Users\Treebu\Documents\GitHub\EstudandoAngularJS\EstudandoAngularJS\bin\EstudandoAngularJS.dll
+C:\Users\Treebu\Documents\GitHub\EstudandoAngularJS\EstudandoAngularJS\bin\EstudandoAngularJS.pdb
+C:\Users\Treebu\Documents\GitHub\EstudandoAngularJS\EstudandoAngularJS\obj\Debug\EstudandoAngularJS.csprojResolveAssemblyReference.cache
+C:\Users\Treebu\Documents\GitHub\EstudandoAngularJS\EstudandoAngularJS\obj\Debug\EstudandoAngularJS.dll
+C:\Users\Treebu\Documents\GitHub\EstudandoAngularJS\EstudandoAngularJS\obj\Debug\EstudandoAngularJS.pdb
