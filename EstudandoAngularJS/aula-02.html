@@ -63,6 +63,12 @@
                     if (!contato.selecionado) return contato;
                 });
             };
+            $scope.validaApagarContatos = function (contatos) {
+                var isDelete = confirm("Deseja realmente deletas esse(s) contato(s)");
+                if (isDelete) {
+                    $scope.apagarContato(contatos);
+                }
+            }
             $scope.isContatoSelecionado = function (contatos) {
                 return contatos.some(function (contato) {
                     return contato.selecionado;
@@ -116,7 +122,7 @@
             </div>
         </div>
         <input type="button" class="btn btn-primary btn-block" value="Adicionar contato" ng-disabled="contatoForm.$invalid" ng-click="adicionarContato(contato)" />
-        <input type="button" class="btn btn-danger btn-block" value="Remover contato" ng-if="isContatoSelecionado(contatos)" ng-click="apagarContato(contatos)" />
+        <input type="button" class="btn btn-danger btn-block" value="Remover contato" ng-if="isContatoSelecionado(contatos)" ng-click="validaApagarContatos(contatos)" />
     </div>
     <br />
     <div ng-include="'footer.html'" style="text-align: center;"></div>
